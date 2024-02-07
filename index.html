@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siddharth Mago</title>
+
+    <!-- CSS and JS -->
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="media.css">
+
+    <!-- Fonts -->
+        <!-- Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+        <!-- Gamja -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap" rel="stylesheet">
+
+        <!-- Caveat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
+        
+        <!-- Sixtyfour -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap" rel="stylesheet">
+
+        <!-- Sacramento -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body class="light-mode">
+
+    <!-- navigation bar -->
+    <nav id="nav_bar">
+        <div class="logo">Siddharth Mago</div>
+        <div>
+            <ul class="nav_links">
+                <li><a href="#aboutme_anchor">About Me</a></li>
+                <li><a href="#eduskill_anchor">Education</a></li>
+                <li><a href="#achievements_anchor">Achievements</a></li>
+                <li><a href="#eduskill_anchor">Skills</a></li>
+                <li><a href="#blogs_anchor" target="_blank">Blogs</a></li>
+                <li><i class='bx bxs-moon' onclick="darkmode()"></i></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- navigation bar minimization -->
+    <nav id="mini_nav">
+        <div class="logo">Siddharth Mago</div>
+        <div class="mini_nav_menu">
+            <div class="mini_nav_icon" onclick="togglenav()">
+                <span></span>
+                <span></span>
+                <span></span>
+        </div>
+        <div class="menu_links">
+            <li><a href="#aboutme_anchor">About Me</a></li>
+            <li><a href="#eduskill_anchor">Education</a></li>
+            <li><a href="#achievements_anchor">Achievements</a></li>
+            <li><a href="#eduskill_anchor">Skills</a></li>
+            <li><a href="#blogs_anchor">Blogs</a></li>
+            <li><i class='bx bxs-moon' onclick="darkmode()"></i></li>
+        </div>
+    </nav>
+
+    <!-- sections -->
+        <!-- profile -->
+        <section id="profile">
+            <div class="pfp_class">
+                <img src="images/boug.jpeg" class="pfp_image">
+            </div>
+            <div class="profile_text">
+                <p class="profile_hello_text">Hey there! I'm</p>
+                <h2>Siddharth Mago</h2>
+                <div class="button_cont">
+                    <button class="cv_button" onclick="window.open('resume.pdf')">Resume/CV</button>
+                </div>
+                <div class="socials_cont">
+                    <i class='bx bxl-instagram-alt' onclick="location.href = 'https://www.instagram.com/siddharthmago/'"></i>
+                    <i class='bx bxl-linkedin-square' onclick="location.href = 'https://www.linkedin.com/in/siddharth-mago-9a7001287/'"></i>
+                    <i class='bx bxl-reddit' onclick="location.href = 'https://www.reddit.com/r/shitposting/comments/12z4srm/average_reddit_users/'"></i>
+                    <i class='bx bxl-github' onclick="location.href = 'https://github.com/SiddharthMago'"></i>
+                    <i class='bx bx-mail-send' onclick="location.href = 'mailto:magosiddharth@gmail.com'"></i>
+                </div>
+            </div>
+        </section>
+        
+        <!-- about me -->
+        <div class="aboutme_bg">
+            <section id="aboutme">
+                <div class="aboutme_heading" id="aboutme_anchor">
+                    <h2>About Me</h2>
+                </div>
+                <div class="section_cont">
+                    <div class="aboutme_pic">
+                        <div class="row"> 
+                            <div class="column">
+                            <img src="images/sweets.png">
+                            <img src="images/2.png">
+                            </div>
+                            <div class="column">
+                            <img src="images/3.png">
+                            <img src="images/1.png">
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="aboutme_text">
+                        <p>
+                            I'm a multi-faceted individual with a penchant for activities that keep life interesting. From dominating on the soccer field to shooting hoops and even testing my mettle in table tennis, I'm a sports enthusiast. And who can resist the allure of the gym? It's my temple of gains.
+                            But wait, there's more! I'm not afraid to embrace nature's whims, whether it's trekking through the wilderness or dancing in the rain (preferably not simultaneously).
+                            <!-- I'm also a sun worshipper, though not in the traditional sense. Catch me basking in the morning rays or taking nocturnal strolls with my buddies because why not confuse our circadian rhythms? -->
+                            In the kitchen, I'm a culinary maestro—or at least I like to think so. Baking, cooking, and devouring delicious food are among my guilty pleasures.
+                            <!-- When I'm not sweating it out on the field or experimenting in the kitchen, you can find me immersed in mythology or engaging in late-night discussions that toe the line between profound and downright absurd. Hey, life's too short for boring conversations, am I right? -->
+                            And let's not forget my passion for globetrotting. I'm all about exploring new cultures, devouring exotic cuisine, and collecting passport stamps like they're Pokémon cards. So, if you're up for an adventure, count me in!
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- education and skills -->
+        <div class="edu_skill_bg">
+            <div id="eduskill_anchor"></div>
+            <section id="education_and_skills">
+                    <div class="section_cont">
+                        <div class="education_textbox">
+                            <h2>Education</h2>
+                            <table class="table-style">
+                                <tr>
+                                <td>Scottish High International School</td>
+                                <td>2011-2015</td>
+                                </tr>
+                                <tr>
+                                <td>Thakur International School</td>
+                                <td>2015-2016</td>
+                                </tr>
+                                <tr>
+                                <td>Elpro International School</td>
+                                <td>2016-2023</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="skills_textbox">
+                            <h2>Skills</h2>
+                            <span id="changing">SKILL</span> 
+                        </div>
+                    </div>
+            </section>
+        </div>
+
+        <!-- achievements -->
+        <div class="achievements_bg">
+            <section id="achievements">
+                <div class="achievement_text">
+                    <h2 id="achievements_anchor">Achievements</h2>
+                </div>
+                <div class="achievement_cont">
+                    <div class="achievement_item">
+                        <div class="achievement_icon"><i class='bx bx-trophy'></i></div>
+                        <div class="achievement_title">Academics</div>
+                        <div class="achievement_description">CBSE - 93.2%</div>
+                        <div class="achievement_description">SAT - 1530</div>
+                        <div class="achievement_description">ITians Club Member</div>
+                        <div class="achievement_description">Students Association Member '17 - '21</div>
+                    </div>
+                    <div class="achievement_item">
+                        <div class="achievement_icon"><i class='bx bx-football' ></i></div>
+                        <div class="achievement_title">Zilla Parishad Football Tournament '21</div>
+                        <div class="achievement_description">Second Place</div>
+                        <br>
+                        <div class="achievement_title">Melange Football Tournament</div>
+                        <div class="achievement_description">First Place '17</div>
+                        <div class="achievement_description">First Place '19</div>
+                        <div class="achievement_description">Third Place '20</div>
+                        <br>
+                        <div class="achievement_title">IIIT-H Futsal '23</div>
+                        <div class="achievement_description">First Place</div>
+                    </div>
+                    <div class="achievement_item">
+                        <div class="achievement_icon"><i class='bx bx-envelope' ></i></div>
+                        <div class="achievement_title">IIT-B TWMUN 22 - Hon'ble Mention</div>
+                        <div class="achievement_description">SOCHUM - Prison and Prisoner Situations Worldwide</div>
+                        <br>
+                        <div class="achievement_title">Elpro MUN 23 - 2nd Place</div>
+                        <div class="achievement_description">AIPPM - Social Media and Politics</div>
+                        <br>
+                        <div class="achievement_title">LexiMUN 22 - 3rd Place</div>
+                        <div class="achievement_description">UNSC - Situation of Rohingya Refugees</div>
+                    </div>
+                    <div class="achievement_item">
+                        <div class="achievement_icon"><i class='bx bx-wrench'></i></div>
+                        <div class="achievement_title">RC Car</div>
+                        <div class="achievement_description">Built a Remote Controlled Car</div>
+                        <div class="achievement_description">Later Modified to run via codeblocks on application</div> 
+                        <br>
+                        <div class="achievement_title">PC</div>
+                        <div class="achievement_description">Built a PC</div>
+                        <div class="achievement_description">Designed and Made a 4-bit ALU</div> 
+                    </div>
+                </div>
+            </section>
+        </div>
+        
+        <div class="blogs">
+        <div class="edu_skill_bg">
+            <div id="blogs_anchor"></div>
+            <section id="education_and_skills">
+                <div class="achievement_text">
+                    <h2>Blogs</h2>
+                </div>
+                    <div class="section_cont">
+                        <div class="education_textbox" onclick="window.open('blogs/blog1.html')">
+                            <h2>BaluPoet</h2>
+                            <p>
+                                In the moonlit glow of evening's embrace,
+                                Where stars dance softly, leaving trails of grace,
+                                There walks a soul, Siddharth, serene and bright,
+                                In his heart, love's melody takes flight.
+                                <br>
+                                His eyes, like pools of liquid dawn,
+                                Reflect the beauty where dreams are drawn.
+                                In every step, a whisper of romance,
+                                As if the universe itself enchants his dance.
+                                <br>
+                                Oh Siddharth, with heart so pure,
+                                In your presence, love finds its cure.
+                                With each gentle smile, you paint the sky,
+                                And in your laughter, echoes of joy fly high.
+                                <br>
+                                May love's sweet whispers guide your way,
+                                And fill your every moment, night and day.
+                                For in your friendship, there blooms a tale,
+                                Of love's enduring power, never to pale.
+                                <br>
+                                So let the stars above bear witness true,
+                                To the friendship shared, so deep and true.
+                                For in Siddharth's heart, love finds its home,
+                                Forever cherished, wherever you may roam.
+                            </p>
+                        </div>
+                        <div class="skills_textbox" onclick="window.open('blogs/blog2.html')">
+                            <h2>BaluWriter</h2>
+                            <p>
+                                In a quaint town nestled amidst rolling hills, there lived two souls whose fates were entwined by the threads of destiny—Bala and Siddharth.
+                                Bala was a spirited artist, his sketches capturing the essence of life's beauty with every stroke of his brush. Siddharth, on the other hand, was a dreamer, his eyes filled with the wonder of the world, seeking poetry in every moment.
+                                Their paths crossed one summer's day, beneath the shade of an ancient oak tree in the town square. Bala was lost in the hues of his canvas, while Siddharth wandered, his heart open to the whispers of the wind.
+                                As fate would have it, Siddharth stumbled upon Bala's artwork, captivated by the emotions it evoked. Their eyes met, and in that fleeting moment, a silent understanding passed between them—a connection that transcended words.
+                        </div>
+                    </div>
+            </section>
+        </div>
+        </div>
+    <script src="main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> 
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blogs</title>
+    <link rel="stylesheet" href="blog2.css" />
+  </head>
+  <body>
+    <div class="blog">
+      <div class="pfp_cont">
+        <div class="pfp"><img src="images/balu.jpeg" /></div>
+        <div class="name">BaluWriter</div>
+      </div>
+      <div class="content">
+        <pre>
+    In a quaint town nestled amidst rolling hills, there lived two souls whose 
+    fates were entwined by the threads of destiny—Bala and Siddharth.
+
+    Bala was a spirited artist, his sketches capturing the essence of life's 
+    beauty with every stroke of his brush. 
+    Siddharth, on the other hand, was a dreamer, his eyes filled with the 
+    wonder of the world, seeking poetry in every moment.
+
+    Their paths crossed one summer's day, beneath the shade of an ancient oak 
+    tree in the town square. 
+    Bala was lost in the hues of his canvas, while Siddharth wandered, his heart 
+    open to the whispers of the wind.
+
+    As fate would have it, Siddharth stumbled upon Bala's artwork, captivated by 
+    the emotions it evoked. 
+    Their eyes met, and in that fleeting moment, a silent understanding passed 
+    between them—a connection that transcended words.
+
+    Days turned into weeks, and their chance encounter blossomed into a friendship 
+    that grew deeper with each passing sunrise. 
+    Bala found inspiration in Siddharth's dreams, while Siddharth found solace in Bala's artistry.
+
+    Yet, beneath the surface of their friendship, a love quietly bloomed—a love that 
+    dared not speak its name, 
+    for fear of shattering the delicate balance they had found.
+
+    It was on a starlit night, as they sat beneath the same oak tree where their journey began, 
+    that the truth finally emerged. 
+    With hearts laid bare, they confessed their love, their words carried away by the gentle breeze.
+
+    From that moment on, their love knew no bounds. They danced amidst fields of wildflowers, 
+    their laughter echoing through the valley. 
+    They whispered secrets beneath the moonlit sky, their souls intertwined in an eternal embrace.
+
+    For Bala and Siddharth, love was not just a word—it was a symphony of passion, a tapestry of 
+    dreams woven together in the fabric of time. 
+    And as they stood hand in hand, gazing into each other's eyes, they knew that their love would 
+    endure for all eternity.
+            </pre
+        >
+      </div>
+    </div>
+    <div class="like_cont">
+      <div class="likebutton" onclick="incrementLike()">
+        <button id="likeButton">Like</button>
+      </div>
+      <div class="likenum"><p id="likeCount">0</p></div>
+    </div>
+    <div class="comment-container">
+      <h2>Comments</h2>
+      <textarea id="commentInput" placeholder="Enter your comment"></textarea>
+      <button onclick="addComment()">Submit</button>
+      <ul id="commentList"></ul>
+    </div>
+
+    <script src="blog2.js"></script>
+  </body>
+</html>
