@@ -1,0 +1,91 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: slategray;
+}
+
+.blog {
+    margin-top: 5%;
+    padding: 5%;
+    padding-left: 0;
+    margin-left: 25%;
+    background-color: white;
+    width: 45%;
+    height: 75%;
+    border-radius: 10%;
+}
+
+.pfp_cont {
+    display: flex;
+    align-items: center;
+    padding: 5%;
+    padding-bottom: 1%;
+    padding-top: 0;
+    margin-left: 5%;
+}
+
+.name {
+    font-size: 4rem;
+}
+
+.pfp {
+    margin-right: 1rem;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.content {
+    font-size: 18px;
+}
+
+button {
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+.like_cont {
+    display: flex;
+    align-items: center;
+    margin-left: 45%;
+}
+
+.likenum {
+    font-size: 20px;
+    padding: 1%;
+}
+
+.likebutton {
+    padding: 1%;
+}
+
+.comment-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+textarea {
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.comment-container button {
+    align-self: center;
+    margin-left: 45%;
+}

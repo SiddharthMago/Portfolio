@@ -1,0 +1,130 @@
+@media screen and (max-width: 600px) {
+   .grid-container {
+     grid-template-columns: repeat(auto-fit, minmax(100%, 1fr)); /* 4x1 grid */
+   }
+
+ }
+
+ @media screen and (max-width: 1400px) {
+  #profile {
+    height: 83vh;
+    margin-bottom: 20rem;
+  }
+  .about-containers {
+    flex-wrap: wrap;
+  }
+  #contact,
+  #projects {
+    height: fit-content;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #nav_bar {
+    display: none;
+   }
+
+   #mini_nav {
+    display: flex;
+   }
+  #profile,
+  .section-container {
+    display: block;
+  }
+  section,
+  .section-container {
+    height: fit-content;
+  }
+  section {
+    margin: 0 5%;
+  }
+  .section__pic-container {
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 2rem;
+  }
+  .about-containers {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #profile {
+    height: 83vh;
+    margin-bottom: 0;
+  }
+  .about-containers,
+  .btn-container {
+    flex-wrap: wrap;
+  }
+  .nav-links li a {
+    font-size: 1rem;
+  }
+  .logo {
+    font-size: 1.5rem;
+  }
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+  .section__pic-container {
+    width: auto;
+    height: 46vw;
+    justify-content: center;
+  }
+  .section__text__p2 {
+    font-size: 1.25rem;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .text-container {
+    text-align: justify;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .section_cont {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .education_textbox,
+  .skills_textbox {
+      width: 96%;
+
+  }
+
+  #changing {
+    font-size: 25px;
+  }
+
+  .skills_textbox {
+    margin-bottom: 15%;
+  }
+
+  .profile_text {
+    margin-top: 30%;
+  }
+
+  .pfp_image {
+    width: 100%;
+  }
+
+  .pfp_class {
+    width: 100%;
+  }
+
+  #education_and_skills .education_textbox {
+    width: 91%;
+  }
+
+  .aboutme_pic {
+    margin-left: 7%;
+  }
+
+  .row {
+    padding-right: 0;
+  }
+}
