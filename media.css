@@ -1,11 +1,4 @@
-@media screen and (max-width: 600px) {
-   .grid-container {
-     grid-template-columns: repeat(auto-fit, minmax(100%, 1fr)); /* 4x1 grid */
-   }
-
- }
-
- @media screen and (max-width: 1400px) {
+@media screen and (max-width: 1400px) {
   #profile {
     height: 83vh;
     margin-bottom: 20rem;
@@ -49,6 +42,9 @@
 }
 
 @media screen and (max-width: 600px) {
+  .grid-container {
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr)); /* 4x1 grid */
+  }
   #profile {
     height: 83vh;
     margin-bottom: 0;

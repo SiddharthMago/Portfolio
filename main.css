@@ -158,6 +158,8 @@ section {
 
 .section_cont {
     display: flex;
+    align-items: stretch;
+    gap: 1rem;
 }
 
 /* profile */
@@ -374,30 +376,40 @@ h2 {
 /* education and skills */
 .education_textbox,
 .skills_textbox {
-    flex: 2;
-    padding: 1%;
-    height: 500%;
+    flex: 1;
+    padding-right: 3rem;
+    padding-left: 3rem;
     margin: 1%;
     background-color: #BAB2B5;
-    border-radius: 10%;
     margin-top: 5vh;
     color: snow;
     overflow: hidden;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 300px;
+    height: auto;
+    box-sizing: border-box;
 }
 
 .dark-mode .education_textbox,
 .dark-mode .skills_textbox {
-    flex: 2;
-    padding: 1%;
-    height: 500%;
+    flex: 1;
+    padding-right: 3rem;
+    padding-left: 3rem;
     margin: 1%;
     background-color: #656464;
-    border-radius: 10%;
     margin-top: 5vh;
     color: snow;
     overflow: hidden;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 300px;
+    height: auto;
+    box-sizing: border-box;
 }
 
 .education_textbox td,
