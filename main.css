@@ -174,7 +174,7 @@ section {
     align-self: center;
     text-align: center;
     animation: 6s anim-lineUp ease-out;
-    margin-top: 4rem;
+    margin-top: 0;
 }
 
 .profile_hello_text {
